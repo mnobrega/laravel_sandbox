@@ -9,7 +9,7 @@ class Field
     public function parse($fields)
     {
        $chunks = $this->splitFieldsIntoChunk($fields);
-        $parsed = [];
+       $parsed = [];
 
        foreach ($chunks as $chunk) {
            $parsed = $this->parseChunk($chunk, $parsed);

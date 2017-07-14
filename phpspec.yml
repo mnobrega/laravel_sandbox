@@ -4,3 +4,9 @@ suites:
     src_path: app
     spec_path: app
     spec_prefix: spec
+
+  mycompany_suite:
+    namespace: MyCompany
+    src_path: app
+    spec_path: app
+    spec_prefix: spec
