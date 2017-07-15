@@ -5,7 +5,6 @@ use App\City;
 use App\Country;
 use App\Location;
 use App\State;
-use DatabaseSeeder;
 use Illuminate\Database\Eloquent\Model;
 use App\User;
 use Illuminate\Support\Facades\Hash;
