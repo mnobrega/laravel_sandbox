@@ -18,5 +18,4 @@ class Reservation extends Model
     public function rooms(){
         return $this->belongsToMany('App\Room','reservation_room', 'reservation_id', 'room_id')->withTimestamps();
     }
-
 }

@@ -22,6 +22,7 @@ class MyCompanyTableSeeder extends DatabaseSeeder
 
         $user = new User();
 
+        $user->name = "hotel";
         $user->email = "hotel@test.com";
         $user->password = Hash::make('password');
         $user->save();
@@ -29,6 +30,7 @@ class MyCompanyTableSeeder extends DatabaseSeeder
         $country = new Country();
         $country->name = "United States";
         $country->id = 236;
+        $country->save();
 
         $state = new State();
         $state->name = "Pennsylvania";
